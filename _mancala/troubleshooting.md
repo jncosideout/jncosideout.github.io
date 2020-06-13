@@ -3,11 +3,9 @@ purpose: Support
 description: Steps for troubleshooting common problems in the app
 title: Troubleshooting
 ---
-{%- include image-wrap.html -%}
 {%- assign notifications_pics = site.static_files | where:"family", "notifications" -%}
-<!-- debug output to js console-->
 {%- assign debugString = notifications_pics | map: "name" | join: " " -%}
-{%- include jslog_MD.html toDump='notifications_pics' dumpExpression=debugString -%}
+
 
 1. ### Tips For Resolving Connection Errors
 As soon as you open the app, you will be automatically signed into your Game Center account in for _Mancala Fantasy - Online._ If you haven't signed into Game Center yet, you will be presented with the Game Center official log-in screen. If neither of those things happen and the "Online Game" button is still greyed-out, it means the app cannot connect to the Game Center server. Check your WiFi or cellular network connection and you will automatically be logged in once your connection is restored. If your connection is working and Mancala Fantasy - Online still will not log into your Game Center account, close the app, wait a while and try again.
@@ -103,14 +101,6 @@ As soon as you open the app, you will be automatically signed into your Game Cen
 {%- assign settings_mancala_pic = pic_paths[2] -%}
 {%- assign settings_scroll_down_pic = pic_paths[3] -%}
 {%- assign settings_top_pic = pic_paths[4] -%}
-
-<!-- debug js dump -->
-{% for path in pic_paths %}
-  <script type="text/javascript">
-    console.log("Dumping pic_paths");
-    console.log( "{{ path }}" );
-  </script>
-{% endfor %}
 
 [Game Center Options]: {{ gameCenter_all_options | relative_url }} "From Settings tap Game Center to sign into your Game Center account"
 [Mancala Notifications]: {{ mancala_all_options_pic | relative_url }} "Then tap Notifications to see all options"

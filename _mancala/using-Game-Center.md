@@ -3,16 +3,14 @@ purpose: How To
 description: Tips and tricks for Game Center
 title: Using Game Center
 ---
-{%- include image-wrap.html -%}
 {%- assign game_center_pics = site.static_files | where:"family", "GameCenter" -%}
-<!-- debug output to js console-->
 {%- assign debugString = game_center_pics | map: "name" | join: " " -%}
-{%- include jslog_MD.html toDump='game_center_pics' dumpExpression=debugString -%}
+
 
   _Mancala Fantasy - Online_ relies on Apple's Game Center to offer matchmaking services. On the Main Menu, tap "Online Game" to see a list of your Active Games...
-  ![Active Games in Game Center][active games]{: image-wrap}
+  ![Active Games in Game Center][active games]
   **...then scroll down to see your Completed Games:**
-  ![scroll down to see Completed Games in Game Center][completed games]{: image-wrap}
+  ![scroll down to see Completed Games in Game Center][completed games]
   If the Game Center server fails to connect you to your match or send match data to the next player, you may see a pop-up alert for these errors. Sometimes the alerts are shown when an error did not occur, so make sure you double check your match to see the status.
 
   For example, if you finish your turn and a pop-up alert with the title "Server Error", try quitting the match and going back to the list of matches. Select the match you just played by tapping on the "i" button on the right, which brings you to the Detail screen shown below:

@@ -1,0 +1,140 @@
+---
+---
+
+@import "{{ site.theme }}";
+// add customization below
+
+{% include _sass/minima/initialize.scss %}
+
+/**
+ * Contain overflow in all browsers.
+
+To fix bug for or code snippets:
+
+ Apparently Safari has problem with attribute "overflow: auto" on pre elements.
+ The debugger shows that it comes from styles.css:1:854, that probably comes from here:
+ pre {
+   overflow: auto;
+ }
+If I disable this attribute either on block with line numbers or on block with the source code then everything is displayed fine.
+Replacing the value with anything but "visible" does not help.
+ */
+pre {
+  overflow: visible;
+}
+
+a.button {
+  color: #0d0d33;
+  //background: transparent url(../images/zip.png) no-repeat 0 0;
+  // width: 30px;
+  // height: 21px;
+  display: inline-block;
+  //text-indent: -10000px;
+  opacity: 0.8;
+  //filter:alpha(opacity=80);  /* IE 5-7 */
+  transition: opacity ease-in-out 0.3s;
+  -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
+  border: 1px solid black;
+  border-radius: 3px;
+  text-indent: 0!important;
+  width: auto;
+  // float: center;
+  background: #999; /* for non-css3 browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#37ADD4', endColorstr='#1B657E'); /* IE <= 9 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#37ADD4), to(#1B657E)); /* ancient webkit browsers */
+  background: -webkit-linear-gradient(top,  #37ADD4,  #1B657E);  /* Safari <=6.1, Android <= 4.3 */
+  background: linear-gradient(to bottom,  #37ADD4,  #1B657E);
+  height: auto;
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+a.button span {
+  background-position: 10px 5px;
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  padding-left: 45px;
+  display: inline-block;
+  text-indent: 0!important;
+  color: #fff;
+}
+
+a.button:hover {
+  opacity: 1;
+  filter:alpha(opacity=100);
+  text-decoration: none;
+  transition: opacity ease-in-out 0.3s;//test
+  color: #fff;// color: #90D355;
+}
+
+a.previous:hover, a.next:hover {
+  text-decoration: none;
+  background-color: #ddd;
+  color: black;
+}
+
+a.previous, a.next {
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+
+}
+a.next {
+  //indent: 100px;
+  float: right;
+}
+
+a.round {
+  border-radius: 50%;
+}
+
+.pagination {
+  width: auto;
+  height: inherit;
+  // margin-top: 31vh auto;
+  // margin-bottom: 31vh auto;
+  margin-left: 40%;
+  // margin-right: 33vw auto;
+}
+
+.pager-edge {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pagination > .previous-page {
+  //position: absolute;
+  // left: 0px;
+  // top: 50%;
+  // width: 40px;
+  // height: 40px;
+  // text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pagination > .current-page {
+  // position: absolute;
+  // left: 50vw;
+  // top: 50%;
+  // width: 10vw;
+  // height: 10vh;
+  // text-align: center;
+  // margin: 15vh auto
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pagination > .next-page {
+  // position: absolute;
+  // right: 0px;
+  // top: 50%;
+  // width: 40px;
+  // height: 40px;
+  // text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}

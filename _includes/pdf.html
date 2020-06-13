@@ -1,0 +1,11 @@
+{{ content }}
+<style media="screen">
+  div.pdf {
+    position: relative;
+    left: -190px;
+  }
+</style>
+<div class="pdf">
+  <object data="{{ page.pdf | relative_url }}" width="1000" height="1000" type="application/pdf">
+  </object>
+</div>

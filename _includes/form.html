@@ -1,0 +1,8 @@
+
+{%- include jslog_MD.html toDump="formAction" dumpExpression= include.form_action -%}
+
+<form class="contact-form" action="{{ include.form_action }}" method="post">
+  Your Name:<input type="text" name="YourName"><br><br>
+  Your Email:<input type="text" name="YourEmail"><br><br>
+  <input type="submit" name="OpenEmail" value="Open Email Client">
+</form>

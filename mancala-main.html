@@ -1,0 +1,37 @@
+---
+layout: default
+title: Mancala
+include_in_nav: true
+tag: Mancala
+---
+
+<h1 style="text-align:center">Everything related to <br> <i>Mancala Fantasy - Online</i> </h1>
+<p>
+Mancala is one of the oldest known games to still be widely played today.
+It has been played in Asia, Africa and Europe for hundreds of years.
+Some historians believe that Mancala is the oldest game in the world based on archaeological evidence found in Jordan that dates around 6000 BCE.
+</p>
+<p>
+The word mancala (منقلة) comes from the Arabic word naqala (نقلة) meaning literally "to move". No one game exists with the name mancala; the name is a classification or type of game. This version is called Kalah, imported to the United States by William Julius Champion, Jr. in 1940.
+        (Source: https://en.wikipedia.org/wiki/Mancala)
+</p>
+<p>
+The game provides a Kalah board and a number of seeds or bead counters.
+The board has 6 small pits on each side, and a big pit, called a base, at each end.
+The object of the game is to have the most seeds in your base at the end of play.
+</p>
+
+<body>
+  {% for item in site.data.mancala.docs %}
+  <h2> {{ item.purpose }}</h2>
+  {% assign purpose_pages = site.mancala | where:"purpose", item.purpose %}
+    {% for mancalaPage in purpose_pages %}
+      <ul>
+        <li>
+          <h3><a href="{{ mancalaPage.url }}">{{ mancalaPage.title }}</a></h3>
+          <p>{{ mancalaPage.description | markdownify }}</p>
+        </li>
+      </ul>
+    {% endfor %}
+  {% endfor %}
+</body>

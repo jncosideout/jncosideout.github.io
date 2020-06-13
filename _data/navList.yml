@@ -1,0 +1,14 @@
+docs_list_title: Menu
+docs:
+
+  - title: Mancala
+    url: "/mancalaMain.html"
+
+  - title: Blog
+    url: "/blog/index.html"
+
+  - title: Secure Chat Server
+    url: ""
+
+  - title: Donate
+    url: ""

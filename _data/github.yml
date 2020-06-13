@@ -1,0 +1,21 @@
+Mancala Fantasy - Online:
+    url: /Mancala_iPhone_App
+    langs:
+      - Swift
+
+Secure Chat Server 1:
+    url: /Secure-File-Server
+    langs:
+      - Java
+      - MySQL
+
+Computer HW Rental DB:
+    url: /Computer-HW-Rental-Inventory-DB
+    langs:
+      - MySQL
+
+Secure Chat Server 2:
+    url:
+    langs:
+      - C#
+      - MySQL

@@ -22,13 +22,14 @@ title: Apps by Alex Beaty
 email: Mancala.Dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Showcase for my portfolio and service for the Apps that I build and maintain, such as <i>Mancala Fantasy - Online</i>
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://www.alexbeaty.com" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  jncosideout
 github_url: https://github.com/jncosideout
 senior_thesis: https://docs.google.com/document/d/1Pvsf8mkvSPBPWMvIS48InP2EKXXIy0nKCwXe14TLvbU/edit?usp=sharing
 GnuPG_key: https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xd12087a83aa6e6d8
+
 # additional Time Machine theme options
 show_downloads: true
 google_analytics: [Your Google Analytics tracking ID]

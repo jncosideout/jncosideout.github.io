@@ -22,7 +22,7 @@ title: Apps by Alex Beaty
 email: Mancala.Dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Showcase for my portfolio and service for the Apps that I build and maintain, such as <i>Mancala Fantasy - Online</i>
-baseurl: "https://www.alexbeaty.com" # the subpath of your site, e.g. /blog
+baseurl: "http://www.alexbeaty.com" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  jncosideout

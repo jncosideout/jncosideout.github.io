@@ -7,4 +7,4 @@ I am constantly looking for ways to improve *Mancala Fantasy - Online*. I encour
 
 Please include 'Feature Request' in the subject line. Thank you.
 {%- assign formAction = "mailto:" | append: site.email -%}
-{% include form.html form_action = formAction %}
+{% include form.html form_action = formAction button_title = "Send Feedback" %}

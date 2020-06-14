@@ -12,4 +12,4 @@ If you are sure that the behavior you are experiencing is truly a bug and not ho
 Please include 'Feature Request' in the subject line. Thanks.
 
 {%- assign formAction = "mailto:" | append: site.email -%}
-{% include form.html form_action = formAction %}
+{% include form.html form_action = formAction button_title = "Submit Bug Report" %}

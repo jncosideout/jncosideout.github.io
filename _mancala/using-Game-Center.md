@@ -13,7 +13,7 @@ title: Using Game Center
   ![scroll down to see Completed Games in Game Center][completed games]
   If the Game Center server fails to connect you to your match or send match data to the next player, you may see a pop-up alert for these errors. Sometimes the alerts are shown when an error did not occur, so make sure you double check your match to see the status.
 
-  For example, if you finish your turn and a pop-up alert with the title "Server Error", try quitting the match and going back to the list of matches. Select the match you just played by tapping on the "i" button on the right, which brings you to the Detail screen shown below:
+  For example, if you finish your turn and a pop-up alert with the title "Server Error" appears, try quitting the match and going back to the list of matches. Select the match you just played by tapping on the "i" button on the right, which brings you to the Detail screen shown below:
   ![Detail view of a match][details-1]
   **...then scroll down to see the current match status for each player.**
   ![scroll down to see the status of the players in this match][details-2]
@@ -23,7 +23,7 @@ title: Using Game Center
 
   Access the Detail view of the match you want to remove by tapping on the "i" as described above.
   ![Do not swipe to remove][swipe remove]
-  Unfortunately, I have not been able to resolve this bug because it comes from Game Center's Match Maker View Controller, (the screen you see in these screenshots). Since I am simply leveraging the Game Center AI, I have no access to its code and my implementation of it is completely uncoupled with it.
+  Unfortunately, I have not been able to resolve this bug because it comes from Game Center's Match Maker View Controller, (the screen you see in these screenshots). Since I am simply leveraging the Game Center API, I have no access to its code and my implementation of it is completely uncoupled with it.
   ![Correct method to remove a match][Details-3 Remove]
 
 {% assign pic_paths = game_center_pics | map: "path" %}

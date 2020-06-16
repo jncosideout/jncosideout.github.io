@@ -5,26 +5,26 @@ title: FAQ
 ---
 {%- assign notifications_pics = site.static_files | where:"family", "notifications" -%}
 
-1. **Q:** I started an Online Game but my opponent hasn't responded, when will they take their turn?
+### 1. Q: I started an Online Game but my opponent hasn't responded, when will they take their turn?
 
-    **A:** If you tapped "Play Now" then two possible events can occur:
+#### A: If you tapped "Play Now" then two possible events can occur:
 
-    1. You join someone's match.
+##### 1. You join someone's match.
 
-    2. You start a match.
+##### 2. You start a match.
 
-    If you tapped "Play Now" and the board is fresh (it looks untouched) and you do not see a "Replay" animation immediately, that signifies there were no open matches to join, so Game Center created a new match for you and you are Player One. After you take your turn, you won't get a reply-move automatically, because you can only play against real, human players.
+If you tapped "Play Now" and the board is fresh (it looks untouched) and you do not see a "Replay" animation immediately, that signifies there were no open matches to join, so Game Center created a new match for you and you are Player One. After you take your turn, you won't get a reply-move automatically, because you can only play against real, human players.
 
-   Therefore, you are waiting for someone elsewhere in the world to play Mancala Fantasy - Online and tap "Play Now." As soon as someone does that, Game Center will connect them to the oldest open match it has, and if that is yours (it should be) then that person will become your new opponent.  After they take their turn, if you have [notifications enabled](troubleshooting.html#activating-notifications), you will be alerted and you can drag-down on the notification to take your turn!
+Therefore, you are waiting for someone elsewhere in the world to play Mancala Fantasy - Online and tap "Play Now." As soon as someone does that, Game Center will connect them to the oldest open match it has, and if that is yours (it should be) then that person will become your new opponent.  After they take their turn, if you have [notifications enabled](troubleshooting.html#activating-notifications), you will be alerted and you can drag-down on the notification to take your turn!
 
-1. **Q:** How do I log out of my Game Center account?
+<h3 id="log_out_Game_Center">2. Q: How do I log out of my Game Center account?</h3>
 
-   **A:** You need to do this from your iPhone's main Settings app
+#### A: You need to do this from your iPhone's main Settings app. Game Center is a separate app that comes preinstalled on all iOS devices. It is only accessible through the iOS Settings app.
 
-   1. **From settings, select Game center (scroll down to see it)**
+##### 1. **From settings, select Game center (scroll down to see it)**
    ![Apple's main Settings app][settings top]
 
-   2. __Scroll to the bottom and tap *Sign Out*__
+##### 2. __Scroll to the bottom and tap *Sign Out* (below *Terms and Conditions*)__
    ![controls for all Game Center options][game center options]
 
    For more help with Game Center see [Using Game Center](using-Game-Center.html)

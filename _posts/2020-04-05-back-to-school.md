@@ -1,5 +1,5 @@
 ---
-tags: [Java, Networking, Secure Chat Server 2, .NET, Ubuntu]
+tags: [Java, Networking, Secure Chat Server 2, .NET, Ubuntu, PluralSight]
 ---
 {%- assign github_proj = site.data.github["Secure Chat Server 1"] -%}
 

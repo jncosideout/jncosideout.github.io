@@ -24,17 +24,15 @@ The object of the game is to have the most seeds in your base at the end of play
 
 <p><a href="{{ site.github_url | append: site.data.github["Mancala Fantasy - Online"].url }}"><strong>Want to see the source code?</strong></a></p>
 
-<body>
-  {% for item in site.data.mancala.docs %}
-  <h2> {{ item.purpose }}</h2>
-  {% assign purpose_pages = site.mancala | where:"purpose", item.purpose %}
-    {% for mancalaPage in purpose_pages %}
-      <ul>
-        <li>
-          <h3><a href="{{ mancalaPage.url }}">{{ mancalaPage.title }}</a></h3>
-          <p>{{ mancalaPage.description | markdownify }}</p>
-        </li>
-      </ul>
-    {% endfor %}
+{% for item in site.data.mancala.docs %}
+<h2> {{ item.purpose }}</h2>
+{% assign purpose_pages = site.mancala | where:"purpose", item.purpose %}
+  {% for mancalaPage in purpose_pages %}
+    <ul>
+      <li>
+        <h3><a href="{{ mancalaPage.url }}">{{ mancalaPage.title }}</a></h3>
+        <p>{{ mancalaPage.description | markdownify }}</p>
+      </li>
+    </ul>
   {% endfor %}
-</body>
+{% endfor %}

@@ -14,9 +14,9 @@ Many states are beginning to force local businesses to close and residents told 
 
     This is the only feature I will not advertise except for here and to my TestFlight testers. By storing an offline list of the user's match outcomes of games played online, I can check to see if enough games have been won to unlock a new game mode that allows players to start a game with five beads per pit instead of four. And after winning some more games, players unlock six beads per pit.
 
-    I'm storing the list offline, i.e. locally on the phone because Game Center allows users to delete completed matches or resign from active ones. Then, I check the list every time the user turns the app on or completes a game. When they meet the thresh-hold to unlock the user will get a notification that will present the new option in the settings menu.
+    I'm storing the list offline, i.e. locally on the phone because Game Center allows users to delete completed matches or resign from active ones. Then, I check the list every time the user turns the app on or completes a game. When they meet the thresh-hold to unlock this feature, the user will get a notification that will present the new option in the settings menu.
 
-    I won't limit the game modes that this option can be used on, so it will be possible to start an Online Game with five or six beads per pit even if the other player does not know they about it. Hopefully this will keep things interesting for players and give them the incentive to play more online games.
+    I won't limit the game modes that this option can be used on, so it will be possible to start an Online Game with five or six beads per pit even if the opponent player does not know about it. Hopefully this will keep things interesting for players and give them the incentive to play more online games.
 
 2. Changed backgrounds to use static images
 
@@ -24,7 +24,7 @@ Many states are beginning to force local businesses to close and residents told 
 
     Once I had an image for each iOS device, I needed a way to [identify the exact iOS device model](https://stackoverflow.com/questions/26028918/how-to-determine-the-current-iphone-device-model/30075200#30075200) the user was running so I could grab the correctly sized image. Luckily, I found some very useful code on Stack Overflow for this exact purpose, and it worked very well, despite being somewhat of a hack.
 
-3. Fixed a bug where game info text was staying when changing game modes
+3. Fixed a bug where game info text was not cleared when changing game modes
 
     The game info text box at the top of the screen usually says things like "Player 2's turn" or "Player 1 got a bonus turn!"
-    but I noticed it wasn't being cleared sometimes when moving from "Vs Computer" to the other game modes, ("2 Player" and "Onine Game"). It turned out that the static `[players]` array used by the AI to keep track of players when running its simulations was behind the problem. Since the other game modes were also referring to this property, the simple solution was to divorce them from it and create new player objects each non-AI game played.
+    but I noticed it wasn't being cleared sometimes when moving from "Vs Computer" to the other game modes ("2 Player" and "Onine Game"). It turned out that the static `[players]` array used by the AI to keep track of players when running its simulations was behind the problem. Since the other game modes were also referring to this property, the simple solution was to divorce them from it and create new player objects for each non-AI game played.

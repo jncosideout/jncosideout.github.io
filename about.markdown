@@ -10,9 +10,10 @@ This site is maintained by me, Alex Beaty, an iOS developer. Its purpose is to a
 
 It's also home to my blog and a showcase for my portfolio. You will find content here detailing my day-to-day growth in my profession and technical skills, as well as tidbits from my life, but not many, I'm keeping it professional here ;) .
 
-<i>**Mancala Fantasy - Online**</i>
+### <i>**Mancala Fantasy - Online**</i>
 
-If you have found a bug for this app, or would like to suggest new features or improvements, [please do so here].
+If you have found a bug for this app, or would like to suggest new features or improvements, please let me know.
+#### [Support and Feedback][please do so here]
 
 
-[please do so here]: /mancala-main.html
+[please do so here]: /mancala-main.html "The main page for *Mancala Fantasy - Online*"

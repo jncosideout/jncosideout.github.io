@@ -5,7 +5,7 @@ title: Rules of Mancala
 ---
 These rules can be found in the Settings of the app. Just click the gear in the top-right corner of the Main Menu to open the Settings, then press the button "How to Play" in the top-left corner of the Settings screen.
 
-Then, click through the first four slides which explain the history of Mancala to get to see the rules below in the app.
+Then, click through the first four slides which explain the history of Mancala to see the rules shown below in the app.
 
 1. At the beginning of the game, four seeds are placed in each pit.
 2. Each player controls the six pits and their seeds on his side of the board.

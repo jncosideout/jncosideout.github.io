@@ -11,19 +11,15 @@ C# has no equivalent to Serializable. The next best thing I have found is someth
 
 ### Here are some of the Microsoft docs I found most useful
 
-- Serialization Guidelines
+- [How to choose which type of serialization to use](https://docs.microsoft.com/en-us/dotnet/standard/serialization/serialization-guidelines)
 
-  [How to choose which type of serialization to use] (https://docs.microsoft.com/en-us/dotnet/standard/serialization/serialization-guidelines)
+- [How To Create a Basic Data Contract](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-create-a-basic-data-contract-for-a-class-or-structure)
 
-- [How To Create a Basic Data Contract] (https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-create-a-basic-data-contract-for-a-class-or-structure)
+- [Using Data Contracts](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/using-data-contracts)
 
-- [Using Data Contracts] (https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/using-data-contracts)
+- [DataContractAttribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractattribute?view=netframework-4.8)
 
-- [DataContractAttribute Class] (https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractattribute?view=netframework-4.8)
+- [DataContractSerializer Class](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractserializer?view=netframework-4.8)
 
-- [DataContractSerializer Class] (https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractserializer?view=netframework-4.8)
-
-
-Most efficient way of reading data from a stream
 
 [secChat1]: {{ site.github_url | append: site.data.github["Secure Chat Server 1"].url }}

@@ -1,4 +1,5 @@
 ---
+title: I am now a full-time iOS developer
 tags: mancala iOS
 ---
 ## Publishing my first app to the Apple App Store

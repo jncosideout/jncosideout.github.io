@@ -30,6 +30,7 @@ github_url: https://github.com/jncosideout
 senior_thesis: https://docs.google.com/document/d/1Pvsf8mkvSPBPWMvIS48InP2EKXXIy0nKCwXe14TLvbU/edit?usp=sharing
 GnuPG_key: https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xd12087a83aa6e6d8
 mancala_app_store: https://apps.apple.com/us/app/mancala-fantasy-online/id1476984859
+google_page: https://g.page/apps-by-alex-beaty?gm
 # additional Time Machine theme options
 show_downloads: true
 google_analytics: [Your Google Analytics tracking ID]
@@ -39,7 +40,7 @@ collections:
     output: true
 
 # blog settings
-paginate: 2
+paginate: 4
 #paginate_path: "/blog/page:num/"
 
 # for menu items in header.html

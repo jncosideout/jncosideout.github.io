@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Happy Father's Day 2020, Dad!
+permalink: /happy-fathers-day-2020.html
 ---
 This is your private page on my website. You are free to do whatever you want here.
 

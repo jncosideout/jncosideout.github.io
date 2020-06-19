@@ -28,7 +28,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jncosideout
 github_url: https://github.com/jncosideout
 senior_thesis: https://docs.google.com/document/d/1Pvsf8mkvSPBPWMvIS48InP2EKXXIy0nKCwXe14TLvbU/edit?usp=sharing
-GnuPG_key: https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xd12087a83aa6e6d8
+GnuPG_key_macarrao: https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xd12087a83aa6e6d8
+GnuPG_key_armahd: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0xF20D6A80E946578B
 mancala_app_store: https://apps.apple.com/us/app/mancala-fantasy-online/id1476984859
 google_page: https://g.page/apps-by-alex-beaty?gm
 # additional Time Machine theme options

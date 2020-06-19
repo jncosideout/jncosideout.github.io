@@ -1,5 +1,6 @@
 ---
 date: 2020-04-12
+title: The Dreaded .pbxproj Archive
 tags: [xcode, git, mancala]
 ---
 The last three days have been a mini-nightmare for my Mancala project. It started when I began to use git to manage my beta builds in TestFlight [in order to use crashlogs I receive in the future.]({%- post_url 2020-04-06-Crashlogs-in-Xcode -%})
@@ -8,7 +9,7 @@ So on Friday, I tested out using git to make a new branch for the next build, 1.
 
 Saturday, I kept trying but my simulator still wouldn't run my app. After wasting hours on trying to repair the workspace, and trying to start with a fresh workspace, I finally found the lost .pbxproj file of the original project. It had been committed to the master branch but had not been brought over to my new branch for Build_1.2.3. It appears that this will fix things.
 
-This morning I confirmed that reinjecting the original project.pbxproj file into my original .xcodeproj archive allows everything to compile normally. I had to create new copies of some source files for my new branch but I was able to successfully build and run the project, which is a huge relief. I was so close to deleting my project, and at one point, Googling "how to uninstall xcode completely."!! I was able to reorganize git and continue updating documentation in my source code. Now I know to be careful to:
+This morning I confirmed that reinjecting the original project.pbxproj file into my original .xcodeproj archive allows everything to compile normally. I had to create new copies of some source files for my new branch but I was able to successfully build and run the project, which is a huge relief. I was so close to deleting my project, and at one point, Googling "how to uninstall xcode completely"!! I was able to reorganize git and continue updating documentation in my source code. Now I know to be careful to:
 
 1. Always make a backup of the .xcodeproj and/or its internal .pbxproj archive
 2. Commit the .pbxproj file and don't panic if nothing works anymore, you just need to commit a copy to the new branch.

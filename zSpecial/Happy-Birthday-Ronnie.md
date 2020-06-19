@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Happy Birthday, Ronnie!
+tag: birthday
+permalink: /happy-birthday-ronnie-2020.html
 ---
 This is your private page on my website. You are free to do whatever you want here.
 

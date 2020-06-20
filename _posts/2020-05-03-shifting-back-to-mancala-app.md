@@ -5,11 +5,12 @@ date: 2020-05-03
 ### My Week in Review
 #### Monday:
 - improved the AI in Mancala app
-- Ubuntu LivePatch error, fixed after manual updates
+- [Ubuntu LivePatch error](https://www.youtube.com/watch?v=pmHGs5N4qp4), fixed after manual updates
 
 #### Tuesday:
 - wrote more documentation for Mancala
 - listened to [Congressional Dish episode 213 "CARES Act"](https://congressionaldish.com/cd213-cares-act-the-trillions-for-covid-19-law/)
+- installed [O&O ShutUp10 -Free antispy tool for Windows 10](https://www.oo-software.com/en/shutup10)
 
 #### Wednesday:
 - got TestFlight feedback saying "the moving colors could make someone sick"

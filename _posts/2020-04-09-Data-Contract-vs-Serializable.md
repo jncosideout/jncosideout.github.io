@@ -3,7 +3,7 @@ title: Data Contract vs Serializable
 date: 2020-04-09 #14:29:58 -0500
 tags: [C#, Java, .NET]
 ---
-I've finally started writing the code to get my new project underway. I am learning C# as I go, but finding that it is nearly equivalent to Java. I have completed the basic networking client/server model that I used in my earlier project, [Secure Chat Server 1][secChat1], which uses a two-threads system on the client side and a multiple thread (1 + each thread-per-client) system on the server side. This sets up a chat room-style instant messaging model that echoes a message from a client to all other clients via that client's corresponding server thread.
+I've finally started writing the code to get my new project underway. I am learning C# as I go, but finding that it is nearly equivalent to Java. I have completed the basic networking client/server model that I used in my earlier project, [Secure Chat Server 1][secChat1], which uses a two-threads system on the client side and a multiple thread (1 main + X * number of clients) system on the server side. This sets up a chat room-style instant messaging model that echoes a message from a client to all other clients via that client's corresponding server thread.
 
 In order to send more data than just a text string, I need a way to serialize objects to be sent through my socket streams. In Java, I simply relied on the ObjectOutput stream, a class that implemented Java's Serializable interface. Little did I know how much it abstracted to make my life easier.
 

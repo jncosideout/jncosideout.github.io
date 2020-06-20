@@ -31,7 +31,7 @@ date: 2020-04-19
 - talked to my youngest sister on FaceTime
 
 #### Saturday:
-- researched how DataContractSerializer works with sockets and [NetworkStream](https://docs.microsoft.com/en-us/dotnet/api/system.net.sockets.networkstream?view=netframework-4.8#properties), and how to determine [length of incoming data to be read](https://stackoverflow.com/questions/7542059/most-efficient-way-of-reading-data-from-a-stream)
+- researched how [DataContractSerializer]({%- post_url 2020-04-09-Data-Contract-vs-Serializable -%}) works with sockets and [NetworkStream](https://docs.microsoft.com/en-us/dotnet/api/system.net.sockets.networkstream?view=netframework-4.8#properties), and how to determine [length of incoming data to be read](https://stackoverflow.com/questions/7542059/most-efficient-way-of-reading-data-from-a-stream)
 
 #### Sunday:
 - did more documentation of Mancala app

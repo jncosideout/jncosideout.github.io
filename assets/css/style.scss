@@ -18,9 +18,13 @@ To fix bug for or code snippets:
  }
 If I disable this attribute either on block with line numbers or on block with the source code then everything is displayed fine.
 Replacing the value with anything but "visible" does not help.
+
+removing the js function for putting line numbers in code blocks will stop the bad formatting problem above since those line
+numbers that were inserted were being shown in a paragraph above the code block.
+So we are removing those lines altogether to allow {overflow: auto;}
  */
 pre {
-  overflow: visible;
+  overflow: auto;
 }
 
 a.button {

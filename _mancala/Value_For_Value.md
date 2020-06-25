@@ -13,4 +13,4 @@ The business model for all my apps comes from the Value For Vaule model: I provi
 
 If you had fun playing _Mancala Fantasy - Online_ and would like to support my work, please donate whatever you think the game was worth to you ***by clicking the button below (my PayPal)***
 
-<a href="https://paypal.me/MancalaDev" class="button">Value For Value</a>
+<a href="{{ site.paypal }}" class="button">Value For Value</a>

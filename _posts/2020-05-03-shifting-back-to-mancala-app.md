@@ -1,5 +1,5 @@
 ---
-tags: [Secure Chat Server 2, mancala, Ubuntu, Congressional Dish, .NET]
+tags: [Secure Chat Server 2, mancala, Ubuntu, Congressional Dish, .NET, xcode tools]
 date: 2020-05-03
 ---
 ### My Week in Review

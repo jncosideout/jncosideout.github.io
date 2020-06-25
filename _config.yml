@@ -32,6 +32,7 @@ GnuPG_key_macarrao: https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xd
 GnuPG_key_armahd: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0xF20D6A80E946578B
 mancala_app_store: https://apps.apple.com/us/app/mancala-fantasy-online/id1476984859
 google_page: https://g.page/apps-by-alex-beaty?gm
+paypal: https://paypal.me/MancalaDev
 # additional Time Machine theme options
 show_downloads: true
 google_analytics: [Your Google Analytics tracking ID]
@@ -41,7 +42,7 @@ collections:
     output: true
 
 # blog settings
-paginate: 4
+paginate: 5
 #paginate_path: "/blog/page:num/"
 
 # for menu items in header.html
@@ -85,6 +86,10 @@ defaults:
       path: "assets/img/notifications"
     values:
       family: "notifications"
+  - scope:
+      path: "assets/img/debug_screenshots"
+    values:
+      family: "debug_screenshots"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

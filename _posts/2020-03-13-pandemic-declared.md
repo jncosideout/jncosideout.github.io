@@ -9,7 +9,7 @@ In the U.S., the President declared a National Emergency for Covid19.
 Many states are beginning to force local businesses to close and residents told to stay home, but here in Texas no official orders have been issued as far as I know. On the bright side, I can take the opportunity to finish working on this app!
 
 ## Mancala Progress Update:
-
+<a name="unlock-game-feature">
 1. Finished "unlock new game modes" feature
 
     This is the only feature I will not advertise except for here and to my TestFlight testers. By storing an offline list of the user's match outcomes of games played online, I can check to see if enough games have been won to unlock a new game mode that allows players to start a game with five beads per pit instead of four. And after winning some more games, players unlock six beads per pit.

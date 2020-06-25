@@ -8,11 +8,13 @@ title: Troubleshooting
 
 
 ### 1. Tips For Resolving Connection Errors
+- - -
 As soon as you open the app, you will be automatically signed into your Game Center account for _Mancala Fantasy - Online._ If you haven't signed into Game Center yet, you will be presented with the Game Center official log-in screen. If neither of those things happen and the "Online Game" button is still greyed-out, it means the app cannot connect to the Game Center server. Check your WiFi or cellular network connection and you will automatically be logged in once your connection is restored.
 
 If your connection is working and _Mancala Fantasy - Online_ still will not log into your Game Center account, close the app, wait a while and try again. If all else fails, try <a href="FAQ.html#log_out_Game_Center">logging out of Game Center directly</a> then log back in.
 
 ### 2. Change the Background
+- - -
   By default, the Background Animations feature is turned off. However, if you would like to try out one of the nine styles of Background Animations available then go to the Settings screen by clicking the gear icon in the top-right corner of the Main Menu.
 
   You will see a button in the bottom-left corner labeled "Background Animations". If it is greyed-out, animations are off. When you tap the button, it will change to "Background Animation 1". The next game you play will have the style for "Background Animation 1". From now on, all games will use this animation style until you change it.
@@ -20,6 +22,7 @@ If your connection is working and _Mancala Fantasy - Online_ still will not log 
   Go back to the settings and tap the button again to try out the other styles (2 - 9). To turn off animations completely, keep tapping the button until you get to "Background Animation 9," then tap one more time to reset to the greyed-out state where it began.
 
 ### 3. Other Settings
+- - -
   * External Settings:
   As mentioned below in **4.** ***Activating App Notifications***, you can go straight to the iPhone's external settings app by tapping the button on the right side of the Settings menu in Mancala Fantasy - Online. It is labeled "Exteral Settings" and it will prompt you to open the iPhone settings app.
 
@@ -44,6 +47,7 @@ If your connection is working and _Mancala Fantasy - Online_ still will not log 
 
 
 <h3 id="activating-notifications">4. Activating App Notifications</h3>
+- - - 
 You can activate notifications for Mancala Fantasy - Online at any time through your iPhone's external settings (the main settings app for the phone itself).
 
   * Go to the iPhone Settings apps

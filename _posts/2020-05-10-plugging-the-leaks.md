@@ -1,13 +1,13 @@
 ---
-tags: [mancala, iOS, Swift, Instruments]
+tags: [mancala, iOS, Swift, xcode tools]
 date: 2020-05-10
 ---
 ## Mancala Progress Update
 #### Monday:
 - added error handling to the main function that loads online games
   - tested error handling by trying to play Mancala online in a location with weak signal
-- my local notifications are inconsistent, even in strong signal
-- use Memory Allocations to find memory leaks when loading online games
+- my local notifications are inconsistent, even with strong network signal
+- used Memory Allocations to find memory leaks when loading online games
 
 #### Tuesday:
 Because many TestFlight testers have reported random crashes when changing between game modes or menu screens, I had thought this was a bug in my code. After using the Allocations Instrument, I have found that my app has memory leaks at every "scene change," which is the event of moving between screens in the app. This has a deeper cause than a simple bug.
@@ -24,12 +24,12 @@ So I spent time relearning ARC and escaping closures. I found a special case tha
 #### Thursday:
 I tried to make a .gitignore for my branch on Build 1.2.3 to avoid committing the breakpoints.bkplist, but this resulted in an unstable state. I will just live with committing the bkplist.
 
-My first attempt at rectifying the memory leaks problem was to continue breaking strong reference cycles in the button escaping closures by using "weak" references, but I cannot eliminate them completely. I also tried to pass the main MenuScene to the other scenes so that I could always return to that instance when the user wanted to go back to the main menu. This didn't work completely. It allowed MenuScene to have only one instance created but the sub-MenuScene_2's and GameScenes were getting captured.
-
+My first attempt at rectifying the memory leaks problem was to continue breaking strong reference cycles in my buttons' escaping closures by using "weak" references, but I cannot eliminate them completely. I also tried to pass the main MenuScene to the other scenes so that I could always return to that instance when the user wanted to go back to the main menu. This didn't work completely. It allowed the MenuScene to have only one instance created, but each SKScenes following a transition from that MenuScene was getting captured.
+<a name="scene-transition-overhaul">
 So I created new branch for Build 1.2.5 to patch the memory leaks. I will be redesigning the entire scene-changing flow in my app to use Notification Center to handle presenting scenes in my GameView Controller. This will create a central dispatch to receive notifications from the active scene when the user taps a button that moves to another scene. The Game View Controller will receive the notification and display the scene that the user wants to see, and since closures aren't involved anymore, there will be no more reference cycles.
 
 #### Friday:
-Completed most of the work on patch_1.2.5, all SKScenes are presented from the GameView Controller. Either only one instance of each scene type will exist in memory, or the scene will be destroyed when transitioning, whichever way I chose for the situation.
+Completed most of the work on patch_1.2.5, all SKScenes will now be presented from the GameView Controller. Either just one instance of each scene type will exist in memory, or the scene will be destroyed when transitioning, whichever way I choose for the situation.
 
 I also talked to my sister on the phone. She had texted me to remind me that fifteen years ago on May 8th, which was Mother's Day that year, I had asked her to remind me of the conversation we had that day. Well lo and behold, her amazing long-term memory pulled through.
 

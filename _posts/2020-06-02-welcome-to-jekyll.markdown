@@ -1,5 +1,4 @@
 ---
-title:  "Making my first website with Jekyll"
 date:   2020-06-02 14:29:58 -0500
 permalink: welcome-to-jekyll.HTML
 tags: jekyll

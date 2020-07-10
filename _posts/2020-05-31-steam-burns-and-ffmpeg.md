@@ -39,7 +39,7 @@ Videos recorded on simulator for iPhone 11 Pro Max always has a lower frame rate
 I could not convert dimensions of my videos to accepted scales for App Store Connect, until I found out that it wasn't my fault, it was macOS's.
 
 #### Saturday:
-- finished uploading and making App Preview videos for iPhon11 6.5"
+- finished uploading and making App Preview videos for iPhone11 6.5"
 - started making new options for background animations in Mancala
 
 I kept all my notes for each error I encountered while trying to produce videos that App Store Connect would not reject, including the solution to the major problem I encountered on Friday while formatting videos made with xcrun and the 11 Pro Max simulator.

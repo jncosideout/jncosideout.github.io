@@ -6,6 +6,7 @@ title: FAQ
 {%- assign notifications_pics = site.static_files | where:"family", "notifications" -%}
 
 ### 1. Q: I started an Online Game but my opponent hasn't responded, when will they take their turn?
+<hr>
 
 #### A: If you tapped "Play Now" then two possible events can occur:
 
@@ -18,7 +19,7 @@ If you tapped "Play Now" and the board is fresh (it looks untouched) and you do 
 Therefore, you are waiting for someone elsewhere in the world to play Mancala Fantasy - Online and tap "Play Now." As soon as someone does that, Game Center will connect them to the oldest open match it has, and if that is yours (it should be) then that person will become your new opponent.  After they take their turn, if you have [notifications enabled](troubleshooting.html#activating-notifications), you will be alerted and you can drag-down on the notification to take your turn!
 
 <h3 id="log_out_Game_Center">2. Q: How do I log out of my Game Center account?</h3>
-
+<hr>
 #### A: You need to do this from your iPhone's main Settings app. Game Center is a separate app that comes preinstalled on all iOS devices. It is only accessible through the iOS Settings app.
 
 ##### 1. **From settings, select Game center (scroll down to see it)**
